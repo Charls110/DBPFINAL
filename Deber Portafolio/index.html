@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Jairon">
+    <title>Portafolio de Jairon Mora </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a mi portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#galeria">Galería de Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <img src="/47809.jpeg" alt="foto" class="header-logo">
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Introducción</h2>
+            <p>Hola que tal, soy una persona a quien le gusta mucho la tecnología y hablar sobre comidas típicas. Este es mi portafolio personal donde conocerás un poco sobre mí, mis cualidades, habilidades y las cosas que más me gustan hacer en el día a día. Aquí encontrarás cómo puedes contactarme, información más personal y muchas cosas. Pásate por las diferentes secciones, como: sobre mí, habilidades, mis proyectos que he realizado y cómo puedes contactarme.</p>
+            <img src="logoutb.png" alt="Foto del Proyecto 2" class="logo" />
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <h3>Mi Biografía</h3>
+                <p> Hola, me llamo Bryan. Soy estudiante de la UTB y actualmente me encuentro estudiando en la jornada matutina. Vivo en Babahoyo y me dedico un poco al desarrollo web, voy aprendiendo poco a poco. Me gusta ver películas, involucrarme en nuevos proyectos de tecnología, estar informado sobre innovaciones, además de disfrutar de la música y la cocina, especialmente en recetas de asados.
+
+                    He realizado proyectos como páginas web con pequeños sistemas de base de datos para almacenar información de inicios de sesión de los clientes. También sé de ensamblaje de computadoras, he montado mi propio CPU para uso doméstico y académico. Asimismo, he hecho instalaciones de redes en una tienda, asegurando cobertura en todas las áreas. Estas son algunas de mis habilidades actuales, aunque sé que tengo mucho por aprender.</p>
+            </article>
+            <a href="https://utb.edu.ec/" class="boton">Visitar UTB</a>
+
+
+        </section>
+
+        <div id="habilidades">
+            <h2>Habilidades y Competencias</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Desarrollo de aplicaciones web</li>
+                <li>Cocinero</li>
+                <li>Práctico deporte</li>
+                <li>Músico</li>
+                <li>Conductor de drones</li>
+            </ul>
+            <h3>Lenguajes de programación</h3>
+            <ol>
+                <li>Java</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>Wamp Server</li>           
+            </ol>
+        </div>
+        <div id="proyectos">
+            <h2>Galería de Proyectos</h2>
+            <div>
+                <h3>Proyecto 1</h3>
+                <p>Este proyecto fue un modelo base de un pequeño sistema automatizado de riego a una planta, hecho con Arduino y programado en C++. El sistema funciona automáticamente, activando una bomba de agua al detectar que la tierra está seca.</p>
+                <img src="/proyecto1.png" alt="Foto del Proyecto 1" />
+            </div>
+            <div>
+                <h3>Proyecto 2</h3>
+                <p>Este proyecto es un sensor de movimiento hecho con Arduino. Al detectar movimiento, puede activar una luz LED o alarma. Útil para seguridad o iluminación automática.</p>
+                <img src="/proyecto2.png" alt="Foto del Proyecto 2" />
+            </div>
+        </div>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+            <p id="form-message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UTB Jairon Mora . Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
